@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="mijncv.html">Mijn CV</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <form action="verzend.php" method="POST">
+                <input type="text" name="voornaam" placeholder="Voornaam" required>
+                <input type="text" name="achternaam" placeholder="Achternaam" required>
+                <input type="email" name="email" placeholder="E-mailadres" required>
+                <textarea name="bericht" placeholder="Bericht" rows="4" required></textarea>
+                <button type="submit">Verzend</button>
+            </form>
+        </main>
+        <footer>
+            &copy; 2024 Brent Heiner. Alle rechten voorbehouden.
+        </footer>
+    </div>
+</body>
+</html>
